@@ -1,0 +1,30 @@
+[submodule "frontend/Drum-Kit"]
+	path = frontend/Drum-Kit
+	url = https://github.com/ajayanuragi/Drum-Kit.git
+[submodule "frontend/date"]
+	path = frontend/date
+	url = https://github.com/ajayanuragi/date.git
+[submodule "frontend/Etch-a-Sketch"]
+	path = frontend/Etch-a-Sketch
+	url = https://github.com/ajayanuragi/Etch-a-Sketch.git
+[submodule "frontend/rock-paper-scissors"]
+	path = frontend/rock-paper-scissors
+	url = https://github.com/ajayanuragi/rock-paper-scissors.git
+[submodule "frontend/Color-Generator"]
+	path = frontend/Color-Generator
+	url = https://github.com/ajayanuragi/Color-Generator.git
+[submodule "backend/ascii-art"]
+	path = backend/ascii-art
+	url = https://github.com/ajayanuragi/ascii-art.git
+[submodule "backend/train-passenger"]
+	path = backend/train-passenger
+	url = https://github.com/ajayanuragi/train-passenger.git
+[submodule "backend/whatToBuild"]
+	path = backend/whatToBuild
+	url = https://github.com/ajayanuragi/whatToBuild.git
+[submodule "backend/library-management"]
+	path = backend/library-management
+	url = https://github.com/ajayanuragi/library-management.git
+[submodule "backend/blog"]
+	path = backend/blog
+	url = https://github.com/ajayanuragi/blog.git
