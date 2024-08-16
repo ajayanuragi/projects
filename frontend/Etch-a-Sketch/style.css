@@ -1,0 +1,59 @@
+body{
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container-wrap{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   max-width: 540px;
+   
+   flex-wrap: wrap;
+   flex: 1;
+   gap: 2px;
+   position: relative;
+}
+.content{
+   border: 2px solid black;
+   width: 60px;
+   height: 60px;
+  
+}
+.red{
+   background: red;
+}
+.blue{
+   background: blue;
+}
+.black{
+   background: black;
+}
+.green{
+   background: green;
+}
+.yellow{
+   background: yellow;
+}
+.brown{
+   background: brown;
+}
+.silver{
+   background: silver;
+}
+.none{
+   background: none;
+}
+button{
+   margin: 10px;
+   padding: 10px;
+   font-size: 16px;
+   width: 100px;
+   background: linear-gradient(0.25turn, #a9facd, #a3c3f3);
+   border: none;
+}

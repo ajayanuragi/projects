@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Idea Feed</title>
+</head>
+<body>
+<h1>Idea Feed</h1>
+
+<div th:each="idea : ${ideas}">
+    <div>
+        <p th:text="${idea.content}"></p>
+        <p>Likes: <span th:text="${idea.likes}"></span></p>
+        <form th:action="@{/ideas/{ideaId}/like(ideaId=${idea.id})}" method="post">
+            <button type="submit">Like</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
